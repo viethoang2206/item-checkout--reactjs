@@ -1,0 +1,32 @@
+@import "../../grid";
+.products {
+    .row {
+        .col-sm-4 {
+
+            .product {
+                box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+                border: 1px solid #ddd;
+                padding: 20px;
+
+                img {
+                    width: 200px;
+                }
+
+                .info {
+                    p {
+                        flex: 1;
+                    }
+
+                    display: flex;
+
+                    button {
+                        color: white;
+                        padding: 6px 12px;
+                        background-color: #2e6da4;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

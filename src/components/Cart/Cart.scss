@@ -1,0 +1,42 @@
+
+.cart {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    margin: 0px 50px;
+
+    .cart-info {
+        border: 1px solid #ddd;
+        width: 400px;
+
+        padding: 20px 10px 30px 10px;
+
+        .cart-display {
+            border: 1px solid #bce8f1;
+            padding: 10px 5px;
+            color: #31708f;
+            background-color: #d9edf7;
+
+            .description {
+                display: flex;
+
+                button {
+                    margin-right: 5px;
+                    cursor: pointer;
+
+                    i {
+                        color: red;
+                        font-size: 20px;
+
+                    }
+                }
+            }
+
+        }
+
+        .cost {
+            padding-top: 20px;
+            text-align: right;
+            font-weight: 700;
+            font-size: 1.5em;
+        }
+    }
+}
