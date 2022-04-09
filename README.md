@@ -1,3 +1,8 @@
+# Practice project using useContext, useState and useEffect
+
+User can add items to cart which will display the total cost of the items, user can also remove item from cart
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
